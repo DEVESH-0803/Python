@@ -2,11 +2,11 @@
 # They are pre-written code that provides additional functionality to our programs. 
 # We can use modules to perform specific tasks without having to write the code from scratch.
 
-import math
-import random as rdm # we can also give an alias to the module name for easier reference
-import sys
-from enum import Enum
-# import cstm
+# import math
+# import random as rdm # we can also give an alias to the module name for easier reference
+# import sys
+# from enum import Enum
+import cstm
 
 # print(math.pi)
 # choice = rdm.choice(['apple', 'banana', 'cherry'])
@@ -23,9 +23,9 @@ from enum import Enum
 
 
 ## Custom module
-# print(cstm.name)
-# print(cstm.profession)
-# cstm.skills()
+print(cstm.name)
+print(cstm.profession)
+cstm.skills()
 
 # print(__name__)
 # print(cstm.__name__)

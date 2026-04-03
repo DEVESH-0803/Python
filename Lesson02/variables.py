@@ -1,18 +1,24 @@
 
-
 var = 2
-var = 3
+print(var)
 
+var = 13
+
+print(var)
+
+rar = 1
+
+print(rar)
 #Case
 
-MyNAME = "Devsh"
-nyname = 'RAhul'
-print(MyNAME)
+# MyNAME = "Devsh"
+# nyname = 'RAhul'
+# print(MyNAME)
 
-name = "Devsh"
-MYNAME = "Devsh"
-myName = "Devsh"
-Name = "dev"
+# name = "Devsh"
+# MYNAME = "Devsh"
+# myName = "Devsh"
+# Name = "dev"
 
 
 #rules 
@@ -46,3 +52,10 @@ Name = "dev"
 #Words -> no specific meaning defined by python devs
 #KeyWords ->  specific meaning defined by python devs
 
+
+
+
+
+
+
+print(var)
