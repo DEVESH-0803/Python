@@ -2,12 +2,12 @@
 # count = 4
 
 # def print_name(name):
-#     color = 'Yellow' # Local scope variable
+#     color = 'yellow' # Local scope variable
 #     # count = 10
 #     # count += 1 # error 
-#     # however to use n modify global variable inside a function, we can use the global keyword
+#    # however to use n modify global variable inside a function, we can use the global keyword
 #     # global count
-#     count += 1
+#     # count += 1
 
 #     print(count)
 #     print(color)
@@ -30,21 +30,21 @@
 
 # defining a function inside another function
 
-# def outer_function():
+def outer_function():
 
-#     print('This is the outer function')
-#     value = 17.63 # declared in parent fxn
+    print('This is the outer function')
+    value = 17.63 # declared in parent fxn
 
-#     def inner_function(num):
-#         print('This is the inner function')
-#         print(num)
+    def inner_function(num):
+        print('This is the inner function')
+        print(num)
 
-#         # value += 10 # error use nonLocal keyword to modify
-#         # nonlocal value
-#         # value += 10
-#         print(value)
+        # value += 10 # error use nonLocal keyword to modify
+        nonlocal value
+        value += 10
+        print(value)
 
-#     inner_function(5)
+    inner_function(5)
 
-# outer_function()
-# inner_function() #Error
+outer_function()
+# inner_function()

@@ -1,4 +1,4 @@
-users = ['Devesh', 'Satyarth', 'Shivam', 'Rohit', 'Rahul', "Rohit", "Mohit", "Katrina"]
+users = ['Devesh', 'Satyarth', 'Shivam', 'Rohit', 'Rahul', "Rohit", "Mohit", "Katrina", 'ankit']
 data = ['Ryan', 2, False, 4, 5, 99.32, [5,2,1,3] ]
 empty_list = []
 nums = [21,12,4,1,23,12,12,65]
@@ -128,34 +128,36 @@ numbers = [5, 2, 9, 1, 5, 6]
 
 # # #sorting w/o modifying actual list
 
-print(numbers)
-print(sorted(numbers, reverse = True))
-print(numbers)
+# print(numbers)
+# print(sorted(numbers, reverse = True))
+# print(numbers)
 
 
-users += ['ankit']
-users += ['Zandu']
-users.sort()
-print(users)
-print("") 
+# users += ['ankit']
+# users += ['Zandu']
+# users.sort()
+# print(users)
+# print("") 
 
 # sorting the lowercase letters before uppercase letters
-users.sort(key=str.lower)  #key -> before sorting, transform each element using this function.”
-#                           #str.lower -> lower case
-print(users)
+# users.sort(key=str.lower)  #key -> before sorting, transform each element using this function.”
+# #                           #str.lower -> lower case
+# print(users)
 
 
 # # popping an element from the list
 # popped_element = users.pop()
 # print(popped_element) 
-# print(users) 
+# val = print(users) 
+# print(val)
+
 
 # #Copying the actual list
 # copy_list = data.copy()
-# copy_list = list(data)
-# print(copy_list)
+copy_list = list(data)
+print(copy_list)
 
 
 # #using list constructor to create a list
-# new_list = list(('Hey', 'Hie','2',True, [], 32.23))
-# print(new_list)
+new_list = list(('Hey', 'Hie','2',True, [], 32.23))
+print(new_list)

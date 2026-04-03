@@ -1,8 +1,8 @@
 # Closure is a fxn having acces to scope of its parent fxn
-#fxn after the parent fxn has returned
+# fxn after the parent fxn has returned
 
 def parent_fxn(person):
-    coins = 3
+    coins = 5
 
     def play_game():
         nonlocal coins
@@ -14,13 +14,16 @@ def parent_fxn(person):
             print(f"{person} has {coins} coin.")
         else:
             print(f"{person} has no coins left.")   
-
+    
     return play_game
 
-John = parent_fxn("John") # storing play_game() in John
+John = parent_fxn("Johnny") # storing play_game() in John
 John() # This is : play_game()
-John()  
-John()  
+John()
+John() 
+John() 
+
+ 
 
 
 # Flow of execution:
@@ -28,5 +31,5 @@ John()
 # John = play_game  
 # John() -> calls play_game
 
-Emily = parent_fxn("Emily")
-Emily()
+# Emily = parent_fxn("Emily")
+# Emily()

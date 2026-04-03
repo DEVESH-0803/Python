@@ -12,19 +12,21 @@
 def add_nums(num1, num2):  
     print(num1 + num2)
 
-add_nums(1)
+
+# add_nums(1)
 
 
-add_nums(4,5)
-add_nums(432,744)
+# add_nums(4,5)
+# add_nums(432,744)
 
 ###################################################################################################
 
 # Reusable Function:  -> fx returns a value, can store n use acc.
-# def add_nums(num1, num2):
-#      return num1 + num2 
+def add_nums(num1, num2):
+     return num1 + num2 
 
-# add_nums(3,4)
+res = add_nums(5,4)
+print(add_nums(5,4))
 
 # result = add_nums(122,31)
 # print(result*10)  
